@@ -1,0 +1,44 @@
+
+.list{
+    width: 300px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.list a{
+    color: #a6f3ff;
+}
+
+.consortStrip{
+    position: relative;
+    height: 300px;
+    vertical-align: bottom;
+    background-image: url("../images/BGs/AlternianCliff.png");
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.consort{
+    position:absolute;
+    bottom: 0px;
+}
+
+.gigglesnort{
+    padding: 15px;
+}
+
+
+
+
+
+.chatter{
+    position:absolute;
+    color: #4e2370;
+    background: #dcb4e9;
+    border: 3px solid #aa0fd0;
+    border-radius: 45px;
+    padding: 15px;
+}

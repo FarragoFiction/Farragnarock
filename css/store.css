@@ -1,0 +1,43 @@
+
+.storeButtonJoke{
+    font-family: 'strife', sans-serif;
+    font-size: 12px;
+    width: 200px;
+    display: block;
+    margin: 15px;
+    margin-left: 122px;
+    padding-top: 10px;
+}
+
+body{
+    background-color: #112b00;
+    background-image: url('../images/BGs/AlternianCliffStore.png');
+    background-position: fixed;
+    background-repeat: repeat-x;
+}
+.chatter{
+    position:absolute;
+    color: #4e2370;
+    background: #dcb4e9;
+    border: 3px solid #aa0fd0;
+    border-radius: 45px;
+    padding: 15px;
+    left: 4px;
+    z-index: -1;
+
+}
+
+.consortStrip{
+    position: relative;
+    width: 100%
+    border: 3px solid #242d26;
+    height: 375px;
+    background-repeat: repeat-x;
+}
+
+.consort{
+    position:absolute;
+    bottom: 430px;
+    z-index: -1;
+
+}
