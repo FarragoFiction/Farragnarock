@@ -1,22 +1,24 @@
 {
-  "name": "electron-quick-start",
+  "name": "LOHAE",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "The Land of Horticulture and Essence, Tree breeding idle game with definitely no secrets.",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package-win": "electron-packager . LOHAE --overwrite --asar=true --platform=win32 --arch=x64 --icon=icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"LOHAE\""
+
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/FarragoFiction/LOHAEStandAlone",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "LOHAE",
+    "Idle Game",
+    "TreeSim",
+    "Breeding Game",
+    "SBURB"
   ],
-  "author": "GitHub",
+  "author": "jadedResearcher",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^2.0.0"
+    "electron": "^2.0.8"
   }
 }

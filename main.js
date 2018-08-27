@@ -7,6 +7,7 @@ const electron = require('electron')
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
+var path = require('path')
 
 const Menu = electron.Menu;
 
@@ -14,7 +15,7 @@ const Menu = electron.Menu;
 function createWindow () {
 
   // Create the browser window.
-   mainWindow = new BrowserWindow({width: 1400, height: 1000})
+   mainWindow = new BrowserWindow({width: 1400, height: 1000,      icon: path.join(__dirname, 'icon.ico')})
    mainWindow.maximize();
    mainWindow.zoomFactor = (0.05);
 
