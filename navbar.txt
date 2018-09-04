@@ -1,5 +1,6 @@
 <div class = "banner">
 <table><tr><td>
+      <a target="_blank" href = "http://www.farragofiction.com/"><img src = "images/BGs/fflogoSmol.png"/></a></td>
     <Td></td>
     </tr>
             </table>
@@ -14,13 +15,24 @@
   <li class = "menuButtonPureCSS"><a href="index.html">Grow</a></li>
   <li class = "menuButtonPureCSS"><a href="store.html">Shop</a></li>
     <li class = "menuButtonPureCSS"><a href="vault.html">Seed Vault</a></li>
-    <li class = "menuButtonPureCSS"><a href="meteor.html">Manage Data</a></li>
+
+    <li class="dropdown menuButtonPureCSS">
+          <a href="javascript:void(0)" class="dropbtn">Data</a>
+          <div class="dropdown-content">
+            <a href="meteor.html">Manage Timelines</a>
+            <a href="backupMeteor.html">Recover Timeline</a>
+            </div>
+    <li>
+
+    <li class = "menuButtonPureCSS"></li>
 
     <li class = "menuButtonPureCSS"><a href="about.html">FAQ</a></li>
     <li class = "menuButtonPureCSS"><a href="index_pw.html">[??]</a></li>
+
         <li class = "menuButtonPureCSS"><a target = "_blank" href="http://treesim.wikia.com/wiki/TreeSim_Wiki">Wiki</a></li>
 
   <li class = "menuButtonPureCSS"><a href="https://discord.gg/KPunMPc">DISCORD</a></li>
+  <li class = "menuButtonPureCSS"><a href="http://www.patreon.com/FarragoFiction">Patreon</a></li>
 
   </span>
 </ul>
