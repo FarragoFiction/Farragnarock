@@ -1,0 +1,77 @@
+.form{
+    padding: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.formCollection{
+    text-align: left;
+    padding: 15px;
+}
+
+input{
+    background-color: #595959;
+    border-color: #696969;
+}
+
+input:focus {
+    background-color: #656565;
+    outline-width: 0;
+}
+
+.formSubSection{
+    padding-left: 50px;
+}
+
+td{
+    vertical-align: top;
+}
+
+button{
+    padding: 15px;
+    background-color: #393939;
+    color: #c4c4c4;
+}
+
+.accountForm{
+    border: 1px solid #393939;
+    background-color: #696969;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.removeButton{
+    padding: 3px;
+}
+
+.emojiButton{
+    padding: 3px;
+    display: inline;
+    margin: 3px;
+}
+
+select{
+   background-color: #595959;
+       border-color: #696969;
+}
+
+select:focus {
+    background-color: #656565;
+    outline-width: 0;
+}
+
+option:focus {
+
+}
+
+option{
+    background-color: #797979;
+}
+
+textArea{
+    margin: 1px;
+    background-color: #595959;
+    border-color: #696969;
+}
