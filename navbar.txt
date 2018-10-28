@@ -1,3 +1,4 @@
+
 <div class = "banner">
 <table><tr><td>
       <a target="_blank" href = "http://www.farragofiction.com/"><img src = "images/BGs/fflogoSmol.png"/></a></td>
@@ -28,9 +29,9 @@
 
     <li class = "menuButtonPureCSS"><a href="about.html">FAQ</a></li>
     <li class = "menuButtonPureCSS"><a href="index_pw.html">[??]</a></li>
-    <li class = "menuButtonPureCSS"><a  style = 'padding:0px;padding-top:8px;' href = '../PaldemicSim/login?username=yggdrasilsYeoman'><img src = 'images/BGs/paldemic.png'></a></li>
+    <li class = "menuButtonPureCSS"><a  style = 'padding:0px;padding-top:8px;' href = 'PaldemicSim/login.html?username=yggdrasilsYeoman'><img src = 'images/BGs/paldemic.png'></a></li>
 
-
+    <input id = "pleaseWork" onchange = "pleaseWorkPlease()"></input>
 
 
   </span>

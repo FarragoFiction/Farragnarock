@@ -8,6 +8,19 @@
 
   gtag('config', 'UA-118163395-1');
 </script>
+    <script>
+    function pleaseWorkPlease(){
+         var str = document.getElementById('pleaseWork').value;
+         console.log(str);
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() {
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            console.log(xmlHttp.responseText);
+    }
+    xmlHttp.open("GET", str, true); // true for asynchronous
+    xmlHttp.send(null);
+    }
+</script>
     <meta charset="utf-8">
     <meta name="description" content="Free Browser Idle Game, Grow and Breed Trees in a Relaxing Fan SBURB Session with Beaver Consorts. There are definitely no secrets here.  ">
 
