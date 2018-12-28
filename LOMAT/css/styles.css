@@ -1,0 +1,155 @@
+@font-face {
+    font-family: cabin;
+    src: url("../Fonts/cabin.regular.ttf");
+}
+
+@font-face {
+    font-family: land;
+    src: url("../Fonts/CARIMA.TTF");
+}
+
+@font-face {
+    font-family: norse;
+    src: url("../Fonts/viking/Viking.ttf");
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #020d1c;
+  font-family: 'cabin', sans-serif;
+}
+
+.townLable{
+    font-family: "land",serif;
+    font-size: 32px;
+    position: absolute;
+    top: 0px;
+    color: #ccc4b5;
+    left: 20px;
+    text-shadow: 1px 1px #000000;
+    z-index: 10;
+}
+
+#output {
+  margin: 25px;
+  padding: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 13px solid #00164f;
+  background-color: #033476;
+  border-radius: 13px;
+  width: 1000px;
+}
+
+.dialogueItem{
+    padding: 20px;
+    width: 420px;
+    font-size: 18px;
+}
+
+.dialogueSelectableItem:hover{
+    text-decoration: underline;
+}
+
+.dialogueContainer{
+    padding: 30px;
+    position: absolute;
+    text-align: left;
+    left: 250px;
+
+}
+
+
+.npcImage{
+    display: inline;
+    text-align: left;
+    float: left;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.flavorText{
+    border: 3px solid #00164f;
+    background-color: #033476;
+    padding: 25px;
+    font-size: 18px;
+    font-family: 'cabin', sans-serif;
+    position: absolute;
+    box-shadow: 0px 3px 13px #000000;
+    width: 400px;
+    top: 75px;
+    color: #ccc4b5;
+    left: 200px;
+    border-radius: 13px;
+    z-index: 1000;
+}
+
+.travelPopup{
+    border: 3px solid #00164f;
+    background-color: #033476;
+    padding: 25px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'cabin', sans-serif;
+    position: absolute;
+    box-shadow: 0px 3px 13px #000000;
+    top: 25%;
+    color: #ccc4b5;
+    left: 25%;
+    border-radius: 13px;
+    z-index: 10;
+}
+
+.talkyScreen{
+    border: 3px solid #00164f;
+    background-color: #033476;
+    padding: 25px;
+    font-family: 'cabin', sans-serif;
+    position: absolute;
+    box-shadow: 0px 3px 13px #000000;
+    width: 700px;
+    height: 400px;
+    bottom: 25px;
+    color: #ccc4b5;
+    left: 25px;
+    border-radius: 13px;
+    z-index: 10;
+}
+
+.menuItem{
+    border: 3px solid #00071af;
+    background-color: #00164f;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'cabin', sans-serif;
+    width: 125px;
+    box-shadow: 0px 3px 13px #000000;
+    font-size: 48px;
+    color: #ccc4b5;
+    border-radius: 13px;
+    z-index: 13;
+}
+
+.menuItem:hover{
+    box-shadow: 0px 3px 13px #888888;
+
+}
+
+
+.menuHolder{
+    padding: 5px;
+    padding-top 0px;
+    vertical-align: top;
+    font-family: 'cabin', sans-serif;
+    width: 100px;
+    color: #ccc4b5;
+    display: inline-block;
+    border-radius: 13px;
+    z-index: 10;
+}

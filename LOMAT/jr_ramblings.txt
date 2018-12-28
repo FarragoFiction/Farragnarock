@@ -1,0 +1,101 @@
+
+12/21/18
+
+I'm trying to de-stress. Releasing MonGirlTile on steam was great and all, but really stressful.
+
+So.
+
+I want to do the funnest possible thing next and that means events. Just. Just do it.
+
+And event should have flavor text and an effect. Effects....don't really make sense yet
+since there's not party members or cash or anything...well there IS how long it will take?
+
+Maybe flavor text should be tied to the effect itself? Or should an event have one and only one effect?
+
+Does it make sense to let them breed to? like?
+
+PARTYMEMBER caught DYSSENTRY: LOSE ONE DAY
+vs
+PARTYMEMBER caught DYSSENTRY: PAY 13 GRIST.
+
+Probably not, an effect is an effect is an effect. They should be hella simple.
+
+So. Text + single effect? What about rarity?
+
+PL is always talking about rare events make playing a game funner.
+
+So, an Event has  text, oddsOfHappening and effect?
+
+So the use case is...
+
+User clicks "Travel" which puts them on a road.  The road has 0 or more events associated with it.
+Every....second? Ten seconds? The road checks for events. ( could be configurable based on towns)
+
+each event in the list rolls its dice, if the number is below its oddsOfHappening it goes.
+
+Event: "GET BIT BY SNAKE" happens. (so events have a title too).
+ User has to spend 1 more second on the raod.
+ text displays "A SNAKE comes out of nowhere and bites INSERT PARTY MEMBER HERE. They roll around on the ground for awhile in agony. You never did trust snakes."
+
+Title, flavorText (room for text engine (in title too), effect,oddsOfHapening
+
+
+
+
+
+~~When I get back, wire town names up to TextEngine. have specific names be tied to genes???~~
+
+actually wait NO DO NOT DO THAT.  You want word clouds to be tied to the premade towns. This is fine.
+
+Or....templates?  ${nameOfOre}Burg? Things like that? Ask PL how that might be enabled later. Things not using the files....basically...
+
+12/12/18
+
+Alright. Time to make towns fuck.
+
+Step 1:
+
+Make initial town have a set genome, no randomness.
+
+Have its children be related to IT and one randomly chosen cached town.
+
+each town created is cached.
+
+once cache hits 113, just start repeating.
+
+
+
+okay, one thing i want to do is focus more on coding while i do it. i don't HAVE all day every day to work on farrago anymore so i gotta
+get back to basics, back to discipline.
+
+so that means no discord, so that means i ramble here instead. (hi wastes)
+
+right now i'm going to spend at LEAST one hour coding LOMAT without being on discord or getting distracted.
+
+My goals (in order) are:
+
+* Integrate with Manic's procedural music.
+* Integrate with KR's butterfly enemy
+* Let towns fuck.
+* Allow town caching.
+* Let neighbor towns be random or cached.
+* Create 'premade' towns.
+* let neighbor towns also draw from premade
+* implement a "triggerCondition" thing towns can have
+* the default condition returns true.
+* a town only is an option for triggering if its trigger condition is true
+* premade towns have custom conditions (like, cattapillars killed is multiple of 85)
+* allow premade towns to be built from a form and loaded from text (like big bads)
+* implement travel events (effect currency, items, npc hp, time to travel, etc)
+* actually have currency
+* actually have an inventory/items
+* actually let you pick up npcs and take them places
+* allow gravestone generation (online feature???)
+
+I think i can get 2.5 bullet points done.
+
+
+At the end of nearly an hour and a half got music done, and butterfly done. 2 bullet points.
+
+
+
