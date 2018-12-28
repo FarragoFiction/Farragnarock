@@ -18847,7 +18847,7 @@ x.classList.add("container")
 $.$get$q1().appendChild(x)
 if($.$get$ci().fy.d.gn4()){A.aR(x,"Oh god what is that thing!?","A pain in my ass.")
 A.aR(x,"Okay, seriously, what's the point of Flashlight???","To light up the dark, numbnuts.")}if($.$get$ci().z){A.aR(x,"Shit where are my trees, what is going on? Why are there EYES???","Wow its almost like you ran away from a boss fight like a coward.<br><br> I can\u2019t give you a direct answer because yada yada passive bullshit, but I *can* idly happen to gesture towards a stable of buck teeth morons who might be able to help.")
-A.aR(x,"Is there NOTHING you can tell me about defeating this weird Eye thing?","He\u2019s in charge of Roots. Which somehow also means Root, the coding thing because SOMEONE decided puns would be a good engine to run reality on. There\u2019s probably a couple of clues from JR if you do that whole Think Like A Waste shtick.")}if($.$get$ci().L.length!==0)A.aR(x,"... What. The. Actual. Shit. Why did my tree grow Wigglers?","Goddamn it. I thought we patched that. You must\u2019ve picked up some extra scenes from the roots World Tree, Yggdrasil.<br><Br>Better hope you have an <a target = '_blank' href = 'http://www.farragofiction.com/WigglerSim/currentEmpress.html'>Empress</a> calm enough to not knee jerk cull these little guys, huh. Or I guess you could just....plant them?")
+A.aR(x,"Is there NOTHING you can tell me about defeating this weird Eye thing?","He\u2019s in charge of Roots. Which somehow also means Root, the coding thing because SOMEONE decided puns would be a good engine to run reality on. There\u2019s probably a couple of clues from JR if you do that whole Think Like A Waste shtick.")}if($.$get$ci().L.length!==0)A.aR(x,"... What. The. Actual. Shit. Why did my tree grow Wigglers?","Goddamn it. I thought we patched that. You must\u2019ve picked up some extra scenes from the roots World Tree, Yggdrasil. [REDACTED USE FOR WIGGLERS]. Or I guess you could just....plant them?")
 if($.$get$ci().fy.z.k4)A.aR(x,"... Well THAT was a thing.","Congrats, you found the hacky bullshit solution, which, in our world, is obviously the PROPER solution. Have a Yellow Yard. Don\u2019t ask where I got it.")
 w=$.$get$ci().F
 if(w.gn(w)>=288){w=$.$get$ci()
@@ -18886,11 +18886,11 @@ A.aR(x,"Why is it called the 'Land of Horticulture and Essence'???","'Horticultu
 A.aR(x,"Can I breed trees together???","Trees automatically cross-polinate with the trees that are flowering (or fruiting) around them.")
 A.aR(x,"How do I get more Essence???","It's a puzzle.")
 A.aR(x,"Why didn't 'Sell All' work???","Sell All (and Sell All But One) both work by both appearance AND parents. If two Sea Apples look the same but one is half Banana Cherry, then they are treated as different categories, since you might want to hang on to either the pure bred or the half bred, depending on what you are doing.")
-A.aR(x,"Who made all this???","This was made by <a target ='blank' href = 'http://farragofiction.com/SBURBSim/bio.html?staff=jadedResearcher'>jadedResearcher</a>, primary programmer for FarragoFiction, who made things like WigglerSim and SBURBSim and shit. <br><br><a target ='blank' href = 'http://farragofiction.com/SBURBSim/bio.html?staff=manicInsomniac'>manicInsomniac</a> (thats me!) handles the music, and sells you shit. <br><br><a target ='blank' href = 'http://farragofiction.com/SBURBSim/bio.html?staff=paradoxLands'>paradoxLands</a> did a lot of back end tools everything is built on top of.<br><Br><a target ='blank' href = 'http://farragofiction.com/SBURBSim/bio.html?staff=karmicRetribution'>karmicRetribution</a> helped all the aesthetics look better than they would if I was all on my own.<Br><Br><a target ='blank' href = 'http://www.farragofiction.com/SBURBSim/bio.html?staff=insufferableOracle'>InsufferableOracle</a> drew the landscape background you see everywhere, with the dark blue sky and the dark green grass. <br><br>Oh and <a target ='blank' href = 'http://farragofiction.com/CreditSim/?target=Cat,fireRachet.?'>Cat</a> helped brainstorm the name for LOHAE and features it would have.<br><Br><a href = 'http://farragofiction.com/CreditSim/?target=yearnfulNode'>yearnfulNode</a> made a bunch of fruit right before LOHAE went live. Also, for up dog. Also ALSO for making the amazing trailer in STEAM.<br><br><a href = 'http://farragofiction.com/CreditSim/?target=dystopicFuturism'> dystopicFuturism</a> designed the first few fruits and flowers.")
+A.aR(x,"Who made all this???","This was made by <a target ='blank' href = 'http://farragofiction.com/SBURBSim/bio.html?staff=jadedResearcher'>jadedResearcher</a>, primary programmer for FarragoFiction, who made things like [REDACTEDSim] and [CENSOREDSim] and shit. <br><br><a target ='blank' href = 'http://farragofiction.com/SBURBSim/bio.html?staff=manicInsomniac'>manicInsomniac</a> (thats me!) handles the music, and sells you shit. <br><br><a target ='blank' href = 'http://farragofiction.com/SBURBSim/bio.html?staff=paradoxLands'>paradoxLands</a> did a lot of back end tools everything is built on top of.<br><Br><a target ='blank' href = 'http://farragofiction.com/SBURBSim/bio.html?staff=karmicRetribution'>karmicRetribution</a> helped all the aesthetics look better than they would if I was all on my own.<Br><Br><a target ='blank' href = 'http://www.farragofiction.com/SBURBSim/bio.html?staff=insufferableOracle'>InsufferableOracle</a> drew the landscape background you see everywhere, with the dark blue sky and the dark green grass. <br><br>Oh and <a target ='blank' href = 'http://farragofiction.com/CreditSim/?target=Cat,fireRachet.?'>Cat</a> helped brainstorm the name for LOHAE and features it would have.<br><Br><a href = 'http://farragofiction.com/CreditSim/?target=yearnfulNode'>yearnfulNode</a> made a bunch of fruit right before LOHAE went live. Also, for up dog. Also ALSO for making the amazing trailer in STEAM.<br><br><a href = 'http://farragofiction.com/CreditSim/?target=dystopicFuturism'> dystopicFuturism</a> designed the first few fruits and flowers.")
 A.aR(x,"Why did you make this???","I\u2019m gonna take a step back and let jR answer: Shit got real irl and I needed a small self contained project to keep me busy for the forseeable future. <br><Br> Plus it was soothing to draw all the initial assets for the trees.")
 A.aR(x,"Why is it so laggy.","Could be your computer doesn't have enough ram, you can try turning down the frames per second here: <a href = 'meteor.html'>here</a><br><br>ALSO you might just like. Have a shit ton of fruit in your inventory? Try selling them periodically.")
 A.aR(x,"What is the Land of Horticulture and Essence's other name?","Eheheheh.<br><br>What, you thought the answer to the puzzle would just BE here? I CAN assure that you probably aren't gonna guess the password until you've seen at least a few of LOHAE's secrets...<br><Br>And before I forget, NO, it is not case sensitive.")
-A.aR(x,"Wait. You mean there's multiple secrets???","Muwahahahahah <br><Br>This was made by jR, what did you EXPECT? Even her secrets have secrets. Off the top of my head I can think of.... <br><br><li>Why is the canvas [REDACTED]???<li>What does the changing tree mean???<li>How do you move [REDACTED]??? <li>[??]<li>How do you defeat [REDACTED]??? (and there's multiple ways for that one)<li>what does [REDACTED] do??? (where theres like....at least 3 different [REDACTED]s.)<li>How do you upgrade [REDACTED]???<li>Oh! And the one this was all built around, how does this all relate to <a target = '_blank' href = 'http://www.farragofiction.com/WigglerSim'>WigglerSim</a>???<li>And of course, the classic: 'How do you Think Like a Waste(tm)???'<li>Oh! I almost forgot: How do you change the radius of the [REDACTED]??? <br><Br>I\u2019m told I\u2019m allowed to give you a freebie: This FAQ page updates itself depending on how your game is going.")
+A.aR(x,"Wait. You mean there's multiple secrets???","Muwahahahahah <br><Br>This was made by jR, what did you EXPECT? Even her secrets have secrets. Off the top of my head I can think of.... <br><br><li>Why is the canvas [REDACTED]???<li>What does the changing tree mean???<li>How do you move [REDACTED]??? <li>[??]<li>How do you defeat [REDACTED]??? (and there's multiple ways for that one)<li>what does [REDACTED] do??? (where theres like....at least 3 different [REDACTED]s.)<li>How do you upgrade [REDACTED]???<li>Oh! And the one this was all built around, how does this all relate to [REDACTED]???<li>And of course, the classic: 'How do you Think Like a Waste(tm)???'<li>Oh! I almost forgot: How do you change the radius of the [REDACTED]??? <br><Br>I\u2019m told I\u2019m allowed to give you a freebie: This FAQ page updates itself depending on how your game is going.")
 return P.C(null,y)}})
 return P.D($async$kg,y)},"$0","pN",0,0,45],
 tt:{"^":"h;a,b,c,d,e",
@@ -19134,14 +19134,139 @@ C.o=new P.zv()
 C.f=new P.zU()
 C.D=new W.pi()
 C.G=new P.cy(0)
-C.a5=function() {  var toStringFunction = Object.prototype.toString;  function getTag(o) {    var s = toStringFunction.call(o);    return s.substring(8, s.length - 1);  }  function getUnknownTag(object, tag) {    if (/^HTML[A-Z].*Element$/.test(tag)) {      var name = toStringFunction.call(object);      if (name == "[object Object]") return null;      return "HTMLElement";    }  }  function getUnknownTagGenericBrowser(object, tag) {    if (self.HTMLElement && object instanceof HTMLElement) return "HTMLElement";    return getUnknownTag(object, tag);  }  function prototypeForTag(tag) {    if (typeof window == "undefined") return null;    if (typeof window[tag] == "undefined") return null;    var constructor = window[tag];    if (typeof constructor != "function") return null;    return constructor.prototype;  }  function discriminator(tag) { return null; }  var isBrowser = typeof navigator == "object";  return {    getTag: getTag,    getUnknownTag: isBrowser ? getUnknownTagGenericBrowser : getUnknownTag,    prototypeForTag: prototypeForTag,    discriminator: discriminator };}
+C.a5=function() {
+  var toStringFunction = Object.prototype.toString;
+  function getTag(o) {
+    var s = toStringFunction.call(o);
+    return s.substring(8, s.length - 1);
+  }
+  function getUnknownTag(object, tag) {
+    if (/^HTML[A-Z].*Element$/.test(tag)) {
+      var name = toStringFunction.call(object);
+      if (name == "[object Object]") return null;
+      return "HTMLElement";
+    }
+  }
+  function getUnknownTagGenericBrowser(object, tag) {
+    if (self.HTMLElement && object instanceof HTMLElement) return "HTMLElement";
+    return getUnknownTag(object, tag);
+  }
+  function prototypeForTag(tag) {
+    if (typeof window == "undefined") return null;
+    if (typeof window[tag] == "undefined") return null;
+    var constructor = window[tag];
+    if (typeof constructor != "function") return null;
+    return constructor.prototype;
+  }
+  function discriminator(tag) { return null; }
+
+  var isBrowser = typeof navigator == "object";
+
+  return {
+    getTag: getTag,
+    getUnknownTag: isBrowser ? getUnknownTagGenericBrowser : getUnknownTag,
+    prototypeForTag: prototypeForTag,
+    discriminator: discriminator };
+}
 C.H=function(hooks) { return hooks; }
-C.a6=function(hooks) {  if (typeof dartExperimentalFixupGetTag != "function") return hooks;  hooks.getTag = dartExperimentalFixupGetTag(hooks.getTag);}
-C.a7=function(hooks) {  var getTag = hooks.getTag;  var prototypeForTag = hooks.prototypeForTag;  function getTagFixed(o) {    var tag = getTag(o);    if (tag == "Document") {      // "Document", so we check for the xmlVersion property, which is the empty      if (!!o.xmlVersion) return "!Document";      return "!HTMLDocument";    }    return tag;  }  function prototypeForTagFixed(tag) {    if (tag == "Document") return null;    return prototypeForTag(tag);  }  hooks.getTag = getTagFixed;  hooks.prototypeForTag = prototypeForTagFixed;}
-C.a8=function(hooks) {  var userAgent = typeof navigator == "object" ? navigator.userAgent : "";  if (userAgent.indexOf("Firefox") == -1) return hooks;  var getTag = hooks.getTag;  var quickMap = {    "BeforeUnloadEvent": "Event",    "DataTransfer": "Clipboard",    "GeoGeolocation": "Geolocation",    "Location": "!Location",    "WorkerMessageEvent": "MessageEvent",    "XMLDocument": "!Document"};  function getTagFirefox(o) {    var tag = getTag(o);    return quickMap[tag] || tag;  }  hooks.getTag = getTagFirefox;}
-C.I=function getTagFallback(o) {  var s = Object.prototype.toString.call(o);  return s.substring(8, s.length - 1);}
-C.a9=function(hooks) {  var userAgent = typeof navigator == "object" ? navigator.userAgent : "";  if (userAgent.indexOf("Trident/") == -1) return hooks;  var getTag = hooks.getTag;  var quickMap = {    "BeforeUnloadEvent": "Event",    "DataTransfer": "Clipboard",    "HTMLDDElement": "HTMLElement",    "HTMLDTElement": "HTMLElement",    "HTMLPhraseElement": "HTMLElement",    "Position": "Geoposition"  };  function getTagIE(o) {    var tag = getTag(o);    var newTag = quickMap[tag];    if (newTag) return newTag;    if (tag == "Object") {      if (window.DataView && (o instanceof window.DataView)) return "DataView";    }    return tag;  }  function prototypeForTagIE(tag) {    var constructor = window[tag];    if (constructor == null) return null;    return constructor.prototype;  }  hooks.getTag = getTagIE;  hooks.prototypeForTag = prototypeForTagIE;}
-C.aa=function(getTagFallback) {  return function(hooks) {    if (typeof navigator != "object") return hooks;    var ua = navigator.userAgent;    if (ua.indexOf("DumpRenderTree") >= 0) return hooks;    if (ua.indexOf("Chrome") >= 0) {      function confirm(p) {        return typeof window == "object" && window[p] && window[p].name == p;      }      if (confirm("Window") && confirm("HTMLElement")) return hooks;    }    hooks.getTag = getTagFallback;  };}
+C.a6=function(hooks) {
+  if (typeof dartExperimentalFixupGetTag != "function") return hooks;
+  hooks.getTag = dartExperimentalFixupGetTag(hooks.getTag);
+}
+C.a7=function(hooks) {
+  var getTag = hooks.getTag;
+  var prototypeForTag = hooks.prototypeForTag;
+  function getTagFixed(o) {
+    var tag = getTag(o);
+    if (tag == "Document") {
+      // "Document", so we check for the xmlVersion property, which is the empty
+      if (!!o.xmlVersion) return "!Document";
+      return "!HTMLDocument";
+    }
+    return tag;
+  }
+
+  function prototypeForTagFixed(tag) {
+    if (tag == "Document") return null;    return prototypeForTag(tag);
+  }
+
+  hooks.getTag = getTagFixed;
+  hooks.prototypeForTag = prototypeForTagFixed;
+}
+C.a8=function(hooks) {
+  var userAgent = typeof navigator == "object" ? navigator.userAgent : "";
+  if (userAgent.indexOf("Firefox") == -1) return hooks;
+
+  var getTag = hooks.getTag;
+
+  var quickMap = {
+    "BeforeUnloadEvent": "Event",
+    "DataTransfer": "Clipboard",
+    "GeoGeolocation": "Geolocation",
+    "Location": "!Location",    "WorkerMessageEvent": "MessageEvent",
+    "XMLDocument": "!Document"};
+
+  function getTagFirefox(o) {
+    var tag = getTag(o);
+    return quickMap[tag] || tag;
+  }
+
+  hooks.getTag = getTagFirefox;
+}
+C.I=function getTagFallback(o) {
+  var s = Object.prototype.toString.call(o);
+  return s.substring(8, s.length - 1);
+}
+C.a9=function(hooks) {
+  var userAgent = typeof navigator == "object" ? navigator.userAgent : "";
+  if (userAgent.indexOf("Trident/") == -1) return hooks;
+
+  var getTag = hooks.getTag;
+
+  var quickMap = {
+    "BeforeUnloadEvent": "Event",
+    "DataTransfer": "Clipboard",
+    "HTMLDDElement": "HTMLElement",
+    "HTMLDTElement": "HTMLElement",
+    "HTMLPhraseElement": "HTMLElement",
+    "Position": "Geoposition"
+  };
+
+  function getTagIE(o) {
+    var tag = getTag(o);
+    var newTag = quickMap[tag];
+    if (newTag) return newTag;
+    if (tag == "Object") {
+      if (window.DataView && (o instanceof window.DataView)) return "DataView";
+    }
+    return tag;
+  }
+
+  function prototypeForTagIE(tag) {
+    var constructor = window[tag];
+    if (constructor == null) return null;
+    return constructor.prototype;
+  }
+
+  hooks.getTag = getTagIE;
+  hooks.prototypeForTag = prototypeForTagIE;
+}
+C.aa=function(getTagFallback) {
+  return function(hooks) {
+    if (typeof navigator != "object") return hooks;
+
+    var ua = navigator.userAgent;
+    if (ua.indexOf("DumpRenderTree") >= 0) return hooks;
+    if (ua.indexOf("Chrome") >= 0) {
+      function confirm(p) {
+        return typeof window == "object" && window[p] && window[p].name == p;
+      }
+      if (confirm("Window") && confirm("HTMLElement")) return hooks;
+    }
+
+    hooks.getTag = getTagFallback;
+  };
+}
 C.h=new P.vt(null,null)
 C.ac=new P.vv(null)
 C.ad=new P.vw(null,null)
