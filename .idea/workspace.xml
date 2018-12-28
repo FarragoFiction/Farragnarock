@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e1ac01-f4a8-4012-aa4f-8fb2b8da51a2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/navbar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LOHAE/navbar.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbarback.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LOHAE/navbarback.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/title.html" beforeDir="false" afterPath="$PROJECT_DIR$/title.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,11 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbarback.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="navbarback.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LOHAE/navbarback.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="29" column="117" selection-start-line="29" selection-start-column="117" selection-end-line="29" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="title.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/title.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -122,6 +130,7 @@
         <option value="$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js" />
         <option value="$PROJECT_DIR$/LOHAE/navbar.txt" />
         <option value="$PROJECT_DIR$/LOHAE/navbarback.txt" />
+        <option value="$PROJECT_DIR$/title.html" />
       </list>
     </option>
   </component>
@@ -231,13 +240,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -585,6 +587,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="117" selection-start-line="29" selection-start-column="117" selection-end-line="29" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/title.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
