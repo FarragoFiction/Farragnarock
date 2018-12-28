@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e1ac01-f4a8-4012-aa4f-8fb2b8da51a2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/title.html" beforeDir="false" afterPath="$PROJECT_DIR$/title.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +18,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="103" selection-start-line="17" selection-start-column="103" selection-end-line="17" selection-end-column="103" />
+            <state relative-caret-position="338">
+              <caret line="57" column="7" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -88,10 +90,15 @@
       <file leaf-file-name="title.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/title.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="425">
+              <caret line="28" column="104" selection-start-line="28" selection-start-column="104" selection-end-line="28" selection-end-column="104" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="title.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/title.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -108,6 +115,7 @@
       <find>wiggler</find>
       <find>wigglersim</find>
       <find>WigglerSim</find>
+      <find>quit</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\jadedResearcher\IdeaProjects\LOHAEStandalone\LOHAE</dir>
@@ -130,14 +138,15 @@
         <option value="$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js" />
         <option value="$PROJECT_DIR$/LOHAE/navbar.txt" />
         <option value="$PROJECT_DIR$/LOHAE/navbarback.txt" />
+        <option value="$PROJECT_DIR$/title.js" />
         <option value="$PROJECT_DIR$/title.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-22" />
-    <option name="y" value="174" />
-    <option name="width" value="2022" />
+    <option name="x" value="38" />
+    <option name="y" value="58" />
+    <option name="width" value="2970" />
     <option name="height" value="1712" />
   </component>
   <component name="ProjectView">
@@ -153,11 +162,6 @@
               <item name="LOHAEStandalone" type="b2602c69:ProjectViewProjectNode" />
               <item name="LOHAEStandalone" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LOHAEStandalone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LOHAEStandalone" type="462c0819:PsiDirectoryNode" />
-              <item name="LOHAE" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -169,6 +173,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jadedResearcher\IdeaProjects\LOHAEStandalone" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jadedResearcher\IdeaProjects\LOHAEStandalone\LOHAE" />
       <recent name="C:\Users\jadedResearcher\IdeaProjects\LOHAEStandalone" />
@@ -240,13 +247,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LOHAE/navbar.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -555,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="103" selection-start-line="17" selection-start-column="103" selection-end-line="17" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/todo.dart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -590,10 +583,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/title.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/title.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="425">
+          <caret line="28" column="104" selection-start-line="28" selection-start-column="104" selection-end-line="28" selection-end-column="104" />
         </state>
       </provider>
     </entry>
