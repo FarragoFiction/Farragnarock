@@ -10,6 +10,40 @@
     margin-right: auto;
 }
 
+.iconContainer{
+    position: relative;
+    heigh: 100%;
+}
+
+.labelTitle{
+    border: 1px solid black;
+    padding: 50px;
+    font-size: 32px;
+    width: 500px;
+    position: absolute;
+}
+
+.menuItem{
+    background-color: #ccc7c4;
+    border: 3px solid #242d26;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.menuItem:hover{
+background-color: #fef4ed;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menuStrip{
+    margin-left:auto;
+    margin-right:auto;
+    width: 400px;
+}
+
 html,body {
   width: 100%;
   color: white;
@@ -243,6 +277,5 @@ a {
 
 #output {
   padding: 20px;
-  text-align: center;
   width: 1000px;
 }
