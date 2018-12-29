@@ -1,0 +1,8 @@
+.map-container {
+  background-size: cover;
+  position: relative; }
+  .map-container canvas {
+    position: absolute; }
+  .map-container img {
+    opacity: 0;
+    position: absolute; }

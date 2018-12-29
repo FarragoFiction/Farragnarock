@@ -1,0 +1,77 @@
+<!DOCTYPE html><html><head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118163395-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118163395-1');
+</script>
+    <script src="image-map-highlighter-master/dist/image-map-highlighter.js"></script>
+
+    <script>
+
+        window.onload = function(){
+            var image = document.querySelector('.yggdrasil');
+            console.log(image);
+            var highlighter = new ImageMapHighlighter(image,{
+            fill: true,
+            fillColor: '000000',
+            fillOpacity: 0.2,
+            stroke: true,
+            strokeColor: 'ff0000',
+            strokeOpacity: 1,
+            strokeWidth: 1,
+            alwaysOn: true
+        });
+            highlighter.init();
+        };
+
+        window.onclick =(function(){
+        document.getElementById('bgAudio').play();
+        });
+
+
+    </script>
+    <meta charset="utf-8">
+    <meta name="description" content="Free Browser Idle Game, Grow and Breed Trees in a Relaxing Fan SBURB Session with Beaver Consorts. There are definitely no secrets here.  ">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="scaffolded-by" content="https://github.com/google/stagehand">
+    <title>LOHAESim</title>
+    <link rel="stylesheet" href="yggdrasil.css">
+
+    <link rel="icon" href="favicon.ico">
+
+</head>
+
+<body>
+<div id="navbar"></div>
+<img id = 'map' class = "yggdrasil" src = "hub.png" usemap="#yggdrasil">
+
+<map name="yggdrasil">
+    <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+    <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+    <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+    <area href="LOHAE/index.html" shape="circle" coords="454,503,50" alt = "???">
+
+</map>
+
+
+<div id="HowsItHangingWISFans???" style="display:none">Hi!!! JR Here!!! Hope you enjoy TreeSim and all. Or the Land of....what was it again? Whatever. ANYWAYS, I'm just here to say: I WONDER if there's shit in the console???</div>
+
+  <div id="output">
+      Music by <a target="_blank" href="https://manicinsomniacmusic.tumblr.com/">manicInsomniac</a>
+      <br>
+      <audio id="bgAudio" autoplay="true" loop="">
+          <source id="ogg" src="LOHAE/Music/Flow_on_2.ogg" type="audio/ogg">
+          <source id="mp3" src="LOHAE/Music/Flow_on_2.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+      </audio></div>
+
+
+
+
+</body></html>
