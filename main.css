@@ -29,7 +29,7 @@
     border: 3px solid #242d26;
     border-radius: 15px;
     padding: 10px;
-    margin-right:50px;
+    margin-right:10px;
     font-size:24px;
 }
 
@@ -44,7 +44,7 @@ a{
 .menuStrip{
     margin-left:auto;
     margin-right:auto;
-    width: 400px;
+    width: 500px;
     position: absolute;
     left:40%;
     bottom:30%;
