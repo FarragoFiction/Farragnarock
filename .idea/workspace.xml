@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e1ac01-f4a8-4012-aa4f-8fb2b8da51a2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gigglesnort.html" beforeDir="false" afterPath="$PROJECT_DIR$/gigglesnort.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +17,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="969">
               <caret line="57" column="7" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="7" />
             </state>
           </provider>
@@ -25,7 +26,7 @@
       <file leaf-file-name="todo.dart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/todo.dart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="75837">
               <caret line="4461" column="94" selection-start-line="4461" selection-start-column="94" selection-end-line="4461" selection-end-column="94" />
             </state>
           </provider>
@@ -34,7 +35,7 @@
       <file leaf-file-name="about.dart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
+            <state relative-caret-position="320484">
               <caret line="18852" column="30" selection-start-line="18852" selection-start-column="30" selection-end-line="18852" selection-end-column="30" />
             </state>
           </provider>
@@ -70,7 +71,7 @@
       <file leaf-file-name="title.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/title.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="544">
               <caret line="32" selection-start-line="32" selection-end-line="40" selection-end-column="6" />
             </state>
           </provider>
@@ -79,7 +80,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
+            <state relative-caret-position="476">
               <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
             </state>
           </provider>
@@ -88,7 +89,7 @@
       <file leaf-file-name="yggdrasil.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yggdrasil.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
+            <state relative-caret-position="1054">
               <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
             </state>
           </provider>
@@ -97,8 +98,8 @@
       <file leaf-file-name="gigglesnort.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gigglesnort.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="-213">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -162,7 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,6 +174,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -236,7 +237,6 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -249,6 +249,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -262,20 +263,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320994">
-          <caret line="18882" column="12" selection-start-line="18882" selection-start-column="12" selection-end-line="18882" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -304,27 +293,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/vault.dart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165954">
-          <caret line="9762" column="49" selection-start-line="9762" selection-start-column="49" selection-end-line="9762" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/about.dart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320382">
-          <caret line="18846" column="605" selection-start-line="18846" selection-start-column="605" selection-end-line="18846" selection-end-column="605" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/scripts/Controllers/vault.dart.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/Controllers/about.dart.js" />
     <entry file="file://$PROJECT_DIR$/LOHAE/navbarback.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -332,13 +303,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320841">
-          <caret line="18873" column="12" selection-start-line="18873" selection-start-column="12" selection-end-line="18873" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -360,13 +325,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311729">
-          <caret line="18337" column="12" selection-start-line="18337" selection-start-column="12" selection-end-line="18337" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -388,13 +347,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311729">
-          <caret line="18337" column="12" selection-start-line="18337" selection-start-column="12" selection-end-line="18337" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -416,13 +369,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311729">
-          <caret line="18337" column="12" selection-start-line="18337" selection-start-column="12" selection-end-line="18337" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -444,13 +391,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311729">
-          <caret line="18337" column="12" selection-start-line="18337" selection-start-column="12" selection-end-line="18337" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -472,13 +413,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311729">
-          <caret line="18337" column="12" selection-start-line="18337" selection-start-column="12" selection-end-line="18337" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js" />
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -493,27 +428,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320994">
-          <caret line="18882" column="12" selection-start-line="18882" selection-start-column="12" selection-end-line="18882" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/vault.dart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165954">
-          <caret line="9762" column="49" selection-start-line="9762" selection-start-column="49" selection-end-line="9762" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/about.dart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320535">
-          <caret line="18855" column="605" selection-start-line="18855" selection-start-column="605" selection-end-line="18855" selection-end-column="605" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/Controllers/vault.dart.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/Controllers/about.dart.js" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -535,23 +452,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/todo.dart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="75837">
           <caret line="4461" column="94" selection-start-line="4461" selection-start-column="94" selection-end-line="4461" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
+        <state relative-caret-position="320484">
           <caret line="18852" column="30" selection-start-line="18852" selection-start-column="30" selection-end-line="18852" selection-end-column="30" />
         </state>
       </provider>
@@ -572,39 +483,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
+        <state relative-caret-position="969">
           <caret line="57" column="7" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/title.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/title.js" />
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
+        <state relative-caret-position="476">
           <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yggdrasil.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
+        <state relative-caret-position="1054">
           <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/title.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="544">
           <caret line="32" selection-start-line="32" selection-end-line="40" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gigglesnort.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="-213">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

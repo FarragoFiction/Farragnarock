@@ -8,25 +8,8 @@
 
   gtag('config', 'UA-118163395-1');
 </script>
-    <script src="image-map-highlighter-master/dist/image-map-highlighter.js"></script>
 
     <script>
-
-        window.onload = function(){
-            var image = document.querySelector('.yggdrasil');
-            console.log(image);
-            var highlighter = new ImageMapHighlighter(image,{
-            fill: true,
-            fillColor: 'ff0000',
-            fillOpacity: 0.2,
-            stroke: true,
-            strokeColor: 'ff0000',
-            strokeOpacity: 0.1,
-            strokeWidth: 1,
-            alwaysOn: false
-        });
-            highlighter.init();
-        };
 
         window.onclick =(function(){
         document.getElementById('bgAudio').play();
