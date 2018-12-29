@@ -17,13 +17,13 @@
             console.log(image);
             var highlighter = new ImageMapHighlighter(image,{
             fill: true,
-            fillColor: '000000',
+            fillColor: 'ff0000',
             fillOpacity: 0.2,
             stroke: true,
             strokeColor: 'ff0000',
-            strokeOpacity: 1,
+            strokeOpacity: 0.1,
             strokeWidth: 1,
-            alwaysOn: true
+            alwaysOn: false
         });
             highlighter.init();
         };
@@ -52,13 +52,15 @@
 <img id = 'map' class = "yggdrasil" src = "hub.png" usemap="#yggdrasil">
 
 <map name="yggdrasil">
-    <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
-    <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
-    <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
-    <area href="LOHAE/index.html" shape="circle" coords="454,503,50" alt = "???">
+    <area href="LOHAE/index.html" shape="circle" coords="454,503,50" alt = "LOHAE">
+    <area href="LOMAT/index.html" shape="circle" coords="190,218,45" alt = "LOMAT">
+
 
 </map>
 
+<br><Br><br>
+        <a class = 'menuItem' href ='LOHAE/index.html'>LOHAE</a>
+        <a class='menuItem' href ='LOMAT/index.html'>LOMAT(Demo)</a>
 
 <div id="HowsItHangingWISFans???" style="display:none">Hi!!! JR Here!!! Hope you enjoy TreeSim and all. Or the Land of....what was it again? Whatever. ANYWAYS, I'm just here to say: I WONDER if there's shit in the console???</div>
 
