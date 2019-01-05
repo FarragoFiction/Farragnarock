@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99e1ac01-f4a8-4012-aa4f-8fb2b8da51a2" name="Default" comment="" />
+    <list default="true" id="99e1ac01-f4a8-4012-aa4f-8fb2b8da51a2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/LOHAE/navbar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LOHAE/navbar.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +16,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
+            <state relative-caret-position="368">
               <caret line="57" column="7" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="7" />
             </state>
           </provider>
@@ -23,53 +25,8 @@
       <file leaf-file-name="todo.dart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/todo.dart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75837">
+            <state relative-caret-position="17">
               <caret line="4461" column="94" selection-start-line="4461" selection-start-column="94" selection-end-line="4461" selection-end-column="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.dart.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="11134" column="48" selection-start-line="11134" selection-start-column="48" selection-end-line="11134" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbar.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LOHAE/navbar.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbarback.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LOHAE/navbarback.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="117" selection-start-line="29" selection-start-column="117" selection-end-line="29" selection-end-column="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="title.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/title.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" selection-start-line="32" selection-end-line="40" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -92,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gigglesnort.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gigglesnort.html">
+      <file leaf-file-name="navbar.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LOHAE/navbar.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-213">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="629">
+              <caret line="37" column="109" selection-start-line="37" selection-start-column="109" selection-end-line="37" selection-end-column="109" />
             </state>
           </provider>
         </entry>
@@ -138,7 +95,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/navbarback.txt" />
         <option value="$PROJECT_DIR$/navbar.txt" />
-        <option value="$PROJECT_DIR$/LOHAE/navbar.txt" />
         <option value="$PROJECT_DIR$/LOHAE/navbarback.txt" />
         <option value="$PROJECT_DIR$/title.js" />
         <option value="$PROJECT_DIR$/title.html" />
@@ -146,6 +102,7 @@
         <option value="$PROJECT_DIR$/yggdrasil.css" />
         <option value="$PROJECT_DIR$/gigglesnort.html" />
         <option value="$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js" />
+        <option value="$PROJECT_DIR$/LOHAE/navbar.txt" />
       </list>
     </option>
   </component>
@@ -164,15 +121,20 @@
         <subPane>
           <expand>
             <path>
-              <item name="LOHAEStandalone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LOHAEStandalone" type="462c0819:PsiDirectoryNode" />
+              <item name="Farragnarok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Farragnarok" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Farragnarok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Farragnarok" type="462c0819:PsiDirectoryNode" />
+              <item name="LOHAE" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +196,6 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -247,6 +208,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -450,20 +412,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/todo.dart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75837">
-          <caret line="4461" column="94" selection-start-line="4461" selection-start-column="94" selection-end-line="4461" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="7" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/title.js" />
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -488,15 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gigglesnort.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
+        <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LOHAE/navbar.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -511,6 +452,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="11134" column="48" selection-start-line="11134" selection-start-column="48" selection-end-line="11134" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/todo.dart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4461" column="94" selection-start-line="4461" selection-start-column="94" selection-end-line="4461" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOHAE/navbar.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="109" selection-start-line="37" selection-start-column="109" selection-end-line="37" selection-end-column="109" />
         </state>
       </provider>
     </entry>
