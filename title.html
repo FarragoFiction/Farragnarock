@@ -12,6 +12,19 @@
         window.onclick =(function(){
         document.getElementById('bgAudio').play();
         });
+
+        function lohae(){
+             document.getElementById("headline").innerHTML = "The Land Of Horticulture and Essence";
+
+        }
+
+        function lomat(){
+             document.getElementById("headline").innerHTML = "The Land Of Mists and Trails";
+        }
+
+        function farragnarock(){
+             document.getElementById("headline").innerHTML = "Farragnarok: Lands of Chaos";
+        }
     </script>
     <meta charset="utf-8">
     <meta name="description" content="Free Browser Idle Game, Grow and Breed Trees in a Relaxing Fan SBURB Session with Beaver Consorts. There are definitely no secrets here.  ">
@@ -19,7 +32,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="scaffolded-by" content="https://github.com/google/stagehand">
-    <title>LOHAESim</title>
+    <title>Farragnarok</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="LOHAE/css/breeding.css">
     <link rel="stylesheet" href="LOHAE/css/navbar.css">
@@ -32,10 +45,10 @@
 <div id="navbar"></div>
 <div class = "iconContainer">
     <img class = "mainIcon" src = "mainIcon.png">
-    <div class = "labelTitle">The Land of Horticulture and Essence</div>
+    <div id = "headline" class = "labelTitle">Farragnarok: Lands of Chaos</div>
     <div class = "menuStrip">
-        <a class = 'menuItem' href ='LOHAE/index.html'>LOHAE</a>
-        <a class='menuItem' href ='LOMAT/index.html'>LOMAT(Demo)</a>
+        <a onmouseout = "farragnarock()"  onmouseover = "lohae()" class = 'menuItem' href ='LOHAE/index.html'>LOHAE</a>
+        <a onmouseout = "farragnarock()"  onmouseover = "lomat()"class='menuItem' href ='LOMAT/index.html'>LOMAT(Demo)</a>
         <a class = 'menuItem' href ='gigglesnort.html'>???</a>
     </div>
 </div>
