@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e1ac01-f4a8-4012-aa4f-8fb2b8da51a2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/title.html" beforeDir="false" afterPath="$PROJECT_DIR$/title.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +16,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="969">
               <caret line="57" column="7" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="7" />
             </state>
           </provider>
@@ -26,7 +25,7 @@
       <file leaf-file-name="todo.dart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/todo.dart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="75837">
               <caret line="4461" column="94" selection-start-line="4461" selection-start-column="94" selection-end-line="4461" selection-end-column="94" />
             </state>
           </provider>
@@ -71,8 +70,8 @@
       <file leaf-file-name="title.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/title.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+            <state relative-caret-position="493">
+              <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -152,8 +151,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,14 +461,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="969">
           <caret line="57" column="7" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/todo.dart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="75837">
           <caret line="4461" column="94" selection-start-line="4461" selection-start-column="94" selection-end-line="4461" selection-end-column="94" />
         </state>
       </provider>
@@ -490,8 +489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/title.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+        <state relative-caret-position="493">
+          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
         </state>
       </provider>
     </entry>
