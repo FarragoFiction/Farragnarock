@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99e1ac01-f4a8-4012-aa4f-8fb2b8da51a2" name="Default" comment="" />
+    <list default="true" id="99e1ac01-f4a8-4012-aa4f-8fb2b8da51a2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release-builds/Farragnarok-darwin-x64/Farragnarok.app/Contents/Resources/app/LOHAE/scripts/Controllers/about.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/release-builds/Farragnarok-darwin-x64/Farragnarok.app/Contents/Resources/app/LOHAE/scripts/Controllers/about.dart.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="title.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="title.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/title.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.dart.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/release-builds/Farragnarok-darwin-x64/Farragnarok.app/Contents/Resources/app/LOHAE/scripts/Controllers/about.dart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="18947" column="588" selection-start-line="18947" selection-start-column="588" selection-end-line="18947" selection-end-column="601" />
             </state>
           </provider>
         </entry>
@@ -32,12 +44,13 @@
       <find>build</find>
       <find>paldemic</find>
       <find>wiggler</find>
-      <find>WigglerSim</find>
       <find>radius</find>
       <find>quit</find>
       <find>outpout</find>
       <find>body</find>
       <find>wigglersim</find>
+      <find>Wigglersim</find>
+      <find>WigglerSim</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\jadedResearcher\IdeaProjects\LOHAEStandalone\LOHAE</dir>
@@ -65,6 +78,7 @@
         <option value="$PROJECT_DIR$/LOHAE/navbar.txt" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/title.html" />
+        <option value="$PROJECT_DIR$/release-builds/Farragnarok-darwin-x64/Farragnarok.app/Contents/Resources/app/LOHAE/scripts/Controllers/about.dart.js" />
       </list>
     </option>
   </component>
@@ -80,7 +94,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,6 +110,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,12 +165,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24306026" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -169,14 +185,12 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LOHAE/navbarback.txt" />
     <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/main.js" />
@@ -230,6 +244,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release-builds/Farragnarok-darwin-x64/Farragnarok.app/Contents/Resources/app/LOHAE/scripts/Controllers/about.dart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="18947" column="588" selection-start-line="18947" selection-start-column="588" selection-end-line="18947" selection-end-column="601" />
         </state>
       </provider>
     </entry>
