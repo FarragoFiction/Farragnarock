@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="99e1ac01-f4a8-4012-aa4f-8fb2b8da51a2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/release-builds/Farragnarok-darwin-x64/Farragnarok.app/Contents/Resources/app/LOHAE/scripts/Controllers/about.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/release-builds/Farragnarok-darwin-x64/Farragnarok.app/Contents/Resources/app/LOHAE/scripts/Controllers/about.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LOHAE/navbar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LOHAE/navbar.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/title.html" beforeDir="false" afterPath="$PROJECT_DIR$/title.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,17 +19,22 @@
       <file leaf-file-name="title.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/title.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="331">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.dart.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/release-builds/Farragnarok-darwin-x64/Farragnarok.app/Contents/Resources/app/LOHAE/scripts/Controllers/about.dart.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LOHAE/navbar.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="18947" column="588" selection-start-line="18947" selection-start-column="588" selection-end-line="18947" selection-end-column="601" />
+            <state relative-caret-position="459">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -75,16 +82,16 @@
         <option value="$PROJECT_DIR$/yggdrasil.css" />
         <option value="$PROJECT_DIR$/gigglesnort.html" />
         <option value="$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js" />
-        <option value="$PROJECT_DIR$/LOHAE/navbar.txt" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/title.html" />
         <option value="$PROJECT_DIR$/release-builds/Farragnarok-darwin-x64/Farragnarok.app/Contents/Resources/app/LOHAE/scripts/Controllers/about.dart.js" />
+        <option value="$PROJECT_DIR$/title.html" />
+        <option value="$PROJECT_DIR$/LOHAE/navbar.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-22" />
-    <option name="y" value="174" />
+    <option name="x" value="-10" />
+    <option name="y" value="108" />
     <option name="width" value="2022" />
     <option name="height" value="1712" />
   </component>
@@ -93,7 +100,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,6 +117,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,7 +179,6 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -185,6 +191,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -228,29 +235,31 @@
     <entry file="file://$PROJECT_DIR$/scripts/Controllers/vault.dart.js" />
     <entry file="file://$PROJECT_DIR$/scripts/Controllers/about.dart.js" />
     <entry file="file://$PROJECT_DIR$/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/title.js" />
     <entry file="file://$PROJECT_DIR$/yggdrasil.css" />
     <entry file="file://$PROJECT_DIR$/gigglesnort.html" />
     <entry file="file://$PROJECT_DIR$/LOHAE/navbarback.txt" />
     <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js" />
-    <entry file="file://$PROJECT_DIR$/LOHAE/navbar.txt" />
     <entry file="file://$PROJECT_DIR$/main.js" />
     <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/todo.dart.js" />
     <entry file="file://$PROJECT_DIR$/main.css" />
     <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/release-builds/Farragnarok-darwin-x64/Farragnarok.app/Contents/Resources/app/LOHAE/scripts/Controllers/about.dart.js" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/title.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="331">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/release-builds/Farragnarok-darwin-x64/Farragnarok.app/Contents/Resources/app/LOHAE/scripts/Controllers/about.dart.js">
+    <entry file="file://$PROJECT_DIR$/LOHAE/navbar.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="18947" column="588" selection-start-line="18947" selection-start-column="588" selection-end-line="18947" selection-end-column="601" />
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

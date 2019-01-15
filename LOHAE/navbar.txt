@@ -29,7 +29,7 @@
     <li class = "menuButtonPureCSS"><a href="about.html">FAQ</a></li>
     <li class = "menuButtonPureCSS"><a href="index_pw.html">[??]</a></li>
 
-      <li class = "menuButtonPureCSS"><a target = "_blank" style = 'padding:0px;padding-top:8px;' href = '../PaldemicSim/login?username=yggdrasilsYeoman'><img src = 'images/BGs/paldemic.png'></a></li>
+      <li class = "menuButtonPureCSS"><a target = "_blank" style = 'padding:0px;padding-top:8px;' href = '../PaldemicSim/login.html?username=yggdrasilsYeoman'><img src = 'images/BGs/paldemic.png'></a></li>
 
 
   </span>
