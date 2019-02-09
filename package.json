@@ -15,13 +15,20 @@
     "TreeSim",
     "Breeding Game"
   ],
+  "build": {
+    "files": [
+      "!node_modules/greenworks/deps/**/*"
+    ]
+  },
   "author": "jadedResearcher",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^2.0.17"
+    "electron": "^2.0.17",
+    "electron-rebuild": "^1.8.4"
   },
   "dependencies": {
     "fs-extra": "^7.0.1",
+    "greenworks": "git+https://github.com/greenheartgames/greenworks.git",
     "jquery": "^3.3.1"
   }
 }
