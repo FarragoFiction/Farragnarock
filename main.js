@@ -27,7 +27,7 @@ function createWindow () {
   // Create the browser window.
    mainWindow = new BrowserWindow({width: 1400, height: 1000,      icon: path.join(__dirname, 'icon.ico')})
    mainWindow.maximize();
-   mainWindow.zoomFactor = (0.05);
+   //mainWindow.zoomFactor = (0.1);
 
   // and load the index.html of the app.
   mainWindow.loadFile('title.html');

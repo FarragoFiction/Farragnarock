@@ -3,9 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="99e1ac01-f4a8-4012-aa4f-8fb2b8da51a2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LOHAE/scripts/Controllers/breeding.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/LOHAE/scripts/Controllers/breeding.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LOHAE/scripts/Controllers/landing.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/LOHAE/scripts/Controllers/landing.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LOHAE/scripts/Controllers/meteor.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/LOHAE/scripts/Controllers/meteor.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LOHAE/scripts/Controllers/secret.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/LOHAE/scripts/Controllers/secret.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LOHAE/scripts/Controllers/storeController.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/LOHAE/scripts/Controllers/storeController.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LOHAE/scripts/Controllers/title.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/LOHAE/scripts/Controllers/title.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LOHAE/scripts/Controllers/vault.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/LOHAE/scripts/Controllers/vault.dart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,22 +25,22 @@
       <file leaf-file-name="title.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/title.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+            <state relative-caret-position="442">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="backupmeteor.dart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/backupmeteor.dart.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="navbar.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LOHAE/navbar.txt">
+      <file leaf-file-name="about.dart.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="705">
+              <caret line="18989" column="8" lean-forward="true" selection-start-line="18989" selection-start-column="8" selection-end-line="18989" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -77,11 +83,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="234" lean-forward="true" selection-start-line="234" selection-end-line="234" />
+            <state relative-caret-position="742">
+              <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -105,6 +111,9 @@
       <find>wigglersim</find>
       <find>Wigglersim</find>
       <find>WigglerSim</find>
+      <find>REDACTED</find>
+      <find>http:</find>
+      <find>a href</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\jadedResearcher\IdeaProjects\LOHAEStandalone\LOHAE</dir>
@@ -126,21 +135,21 @@
         <option value="$PROJECT_DIR$/title.js" />
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/yggdrasil.css" />
-        <option value="$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js" />
         <option value="$PROJECT_DIR$/release-builds/Farragnarok-darwin-x64/Farragnarok.app/Contents/Resources/app/LOHAE/scripts/Controllers/about.dart.js" />
-        <option value="$PROJECT_DIR$/title.html" />
         <option value="$PROJECT_DIR$/LOHAE/navbar.txt" />
         <option value="$PROJECT_DIR$/gigglesnort.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/title.html" />
+        <option value="$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="28" />
-    <option name="width" value="2832" />
-    <option name="height" value="1784" />
+    <option name="x" value="344" />
+    <option name="y" value="82" />
+    <option name="width" value="2432" />
+    <option name="height" value="1712" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -148,7 +157,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,10 +164,29 @@
               <item name="FarragnarokOld" type="b2602c69:ProjectViewProjectNode" />
               <item name="FarragnarokOld" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FarragnarokOld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarragnarokOld" type="462c0819:PsiDirectoryNode" />
+              <item name="LOHAE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarragnarokOld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarragnarokOld" type="462c0819:PsiDirectoryNode" />
+              <item name="LOHAE" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FarragnarokOld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FarragnarokOld" type="462c0819:PsiDirectoryNode" />
+              <item name="LOHAE" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,7 +267,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/LOHAE/navbar.txt" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/scripts/Controllers/vault.dart.js" />
@@ -277,7 +303,6 @@
     <entry file="file://$PROJECT_DIR$/title.js" />
     <entry file="file://$PROJECT_DIR$/yggdrasil.css" />
     <entry file="file://$PROJECT_DIR$/LOHAE/navbarback.txt" />
-    <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js" />
     <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/todo.dart.js" />
     <entry file="file://$PROJECT_DIR$/main.css" />
     <entry file="file://$PROJECT_DIR$/release-builds/Farragnarok-darwin-x64/Farragnarok.app/Contents/Resources/app/LOHAE/scripts/Controllers/about.dart.js" />
@@ -300,13 +325,6 @@
     <entry file="file://$PROJECT_DIR$/manicGigglesnort/tyrano/libs/jquery-1.10.2.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/title.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gigglesnort.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -326,8 +344,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="234" lean-forward="true" selection-start-line="234" selection-end-line="234" />
+        <state relative-caret-position="742">
+          <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/title.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/backupmeteor.dart.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="18989" column="8" lean-forward="true" selection-start-line="18989" selection-start-column="8" selection-end-line="18989" selection-end-column="8" />
         </state>
       </provider>
     </entry>
