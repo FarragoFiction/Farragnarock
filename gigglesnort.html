@@ -12,20 +12,10 @@
     <script>
 
         window.onclick =(function(){
-            test();
             document.getElementById('bgAudio').play();
         });
 
-        function test(){
-                const Http = new XMLHttpRequest();
-                const url='http://127.0.0.1:3000';
-                Http.open("GET", url);
-                Http.send();
-                Http.onreadystatechange=(e)=>{
-                    window.alert(Http.status);
-                    console.log(Http.responseText);
-                }
-        }
+
 
 
     </script>
