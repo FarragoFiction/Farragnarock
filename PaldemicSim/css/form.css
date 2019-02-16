@@ -34,6 +34,21 @@ button{
     color: #c4c4c4;
 }
 
+.left{
+    text-align: left;
+    padding-left: 25px;
+}
+
+.instructions{
+    border: 1px solid #696969;
+    width: 90%;
+    border-radius: 15px;
+    padding: 25px;
+    padding-top: 5px;
+    margin: 25px;
+    background-color: #595959;
+}
+
 .accountForm{
     border: 1px solid #393939;
     background-color: #696969;
