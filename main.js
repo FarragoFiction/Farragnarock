@@ -171,7 +171,7 @@ function clearAchievement(name){
 function setStat(name){
     greenworks.setStat(name,10,
         function() { console.log("Setting stat",name, " successfully"); },
-         function(err) { console.log('Failed on activating achievement.'); });
+         function(err) { console.log('Failed on setting stat.'); });
 }
 
 
