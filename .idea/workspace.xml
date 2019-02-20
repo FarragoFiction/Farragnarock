@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e1ac01-f4a8-4012-aa4f-8fb2b8da51a2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manicGigglesnort/jadedResearcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manicGigglesnort/jrtest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +45,7 @@
       <file leaf-file-name="gigglesnort.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gigglesnort.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-196">
+            <state relative-caret-position="238">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
@@ -52,7 +54,7 @@
       <file leaf-file-name="about.dart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47526">
+            <state relative-caret-position="322320">
               <caret line="18960" column="1377" selection-start-line="18960" selection-start-column="1377" selection-end-line="18960" selection-end-column="1377" />
             </state>
           </provider>
@@ -62,21 +64,53 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306">
+            <state relative-caret-position="17">
               <caret line="173" column="60" selection-start-line="173" selection-start-column="60" selection-end-line="173" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manicGigglesnort/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-947" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jadedResearcher.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manicGigglesnort/jadedResearcher.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jrtest.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manicGigglesnort/jrtest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -127,6 +161,8 @@
         <option value="$PROJECT_DIR$/gigglesnort.html" />
         <option value="$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js" />
         <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/manicGigglesnort/jadedResearcher.js" />
+        <option value="$PROJECT_DIR$/manicGigglesnort/jrtest.html" />
       </list>
     </option>
   </component>
@@ -141,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -149,14 +186,19 @@
               <item name="Farragnarok" type="b2602c69:ProjectViewProjectNode" />
               <item name="Farragnarok" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Farragnarok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Farragnarok" type="462c0819:PsiDirectoryNode" />
+              <item name="manicGigglesnort" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../electron-quick-start" />
   </component>
   <component name="RecentsManager">
@@ -234,9 +276,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/vault.dart.js" />
-    <entry file="file://$PROJECT_DIR$/scripts/Controllers/about.dart.js" />
     <entry file="file://$PROJECT_DIR$/LOHAE/navbarback.txt" />
     <entry file="file://$PROJECT_DIR$/scripts/Controllers/breeding.dart.js" />
     <entry file="file://$PROJECT_DIR$/package.json" />
@@ -301,14 +340,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gigglesnort.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
+        <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LOHAE/scripts/Controllers/about.dart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47526">
+        <state relative-caret-position="322320">
           <caret line="18960" column="1377" selection-start-line="18960" selection-start-column="1377" selection-end-line="18960" selection-end-column="1377" />
         </state>
       </provider>
@@ -316,14 +355,33 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
+        <state relative-caret-position="17">
           <caret line="173" column="60" selection-start-line="173" selection-start-column="60" selection-end-line="173" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manicGigglesnort/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-947" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manicGigglesnort/jadedResearcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manicGigglesnort/jrtest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
