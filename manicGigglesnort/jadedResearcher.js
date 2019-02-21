@@ -27,19 +27,18 @@ function sampleImageCanvas(canvas){
 
 function fuckshitup(canvas,source){
     var context = canvas.getContext("2d");
-    context.drawImage(source,0,0);
+    //context.drawImage(source,0,0);
     var imgData = source.getContext("2d").getImageData(0, 0, source.width, source.height);
-    for(var i = 0 ; i < 40; i++){
-        console.log("i is ",i);
-        var x = i*10;
-        var y = 20*i;
-        new_color = colorAtPixel(imgData, x,y);
-        if(new_color != ctx.fillStyle){
-            ctx.fillStyle = new_color;
-            //fill is expensive so only call it when the color changes (  i think)
-            context.fill();
+    for(var x = 0 ; x < canvas.width; x+=10){
+        for(var y = 0; y< canvas.height; y+=10){
+        new_color = colorAtPixel(canvas.width,imgData.data, x,y);
+        console.log("new color is ", new_color);
+        context.fillStyle = new_color;
+        //TODO fill is expensive so only call it when the color changes (  i think)
+        context.beginPath();
+        context.rect(x, y, 10, 10);
+        context.fill();
         }
-        context.rect(x, y, 10, 10*i);
 
     }
 }
@@ -50,15 +49,15 @@ function test(){
     sampleImageCanvas(canvas);
 }
 
-function colorAtPixel(image_data, x,y){
+function colorAtPixel(width,image_data, x,y){
     y = Math.floor(y)
 	x = Math.floor(x)
-	var i = (y * canvas.width + x)* 4; //array is in sets of rgba
-	return createHex(array[i],array[i+1] ,array[i+2]);
+	var i = (y * width + x)* 4; //array is in sets of rgba
+	return createHex(image_data[i],image_data[i+1] ,image_data[i+2]);
 }
 
 
-//~~~~~~~~~~~~~~~~thanks past jr from pre SBURBSim
+//~~~~~~~~~~~~~~~~thanks past jr from pre SBURBSim, ModernArtSim is valid
 
 
 
