@@ -18,25 +18,25 @@ function sampleImageCanvas(canvas){
     img.addEventListener('load', function() {
       // execute drawImage statements here
        buffer.getContext("2d").drawImage(img,0,0);
-       fuckshitup(canvas, buffer);
+       fuckshitup(canvas, buffer,20);
 
     }, false);
     img.src = 'New_Trees_Background_Plus_Prince.png';
 
 }
 
-function fuckshitup(canvas,source){
+function fuckshitup(canvas,source, size){
     var context = canvas.getContext("2d");
     //context.drawImage(source,0,0);
     var imgData = source.getContext("2d").getImageData(0, 0, source.width, source.height);
-    for(var x = 0 ; x < canvas.width; x+=10){
-        for(var y = 0; y< canvas.height; y+=10){
+    for(var x = 0 ; x < canvas.width; x+=size){
+        for(var y = 0; y< canvas.height; y+=size){
         new_color = colorAtPixel(canvas.width,imgData.data, x,y);
         console.log("new color is ", new_color);
         context.fillStyle = new_color;
         //TODO fill is expensive so only call it when the color changes (  i think)
         context.beginPath();
-        context.rect(x, y, 10, 10);
+        context.rect(x, y, size, size);
         context.fill();
         }
 
