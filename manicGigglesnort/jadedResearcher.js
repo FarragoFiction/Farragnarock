@@ -11,7 +11,7 @@ function lookForCharImages(){
     for(var element in elements){
         console.log(elements[element]);
         try{
-            censor(elements[element],20);
+            censor(elements[element],50);
         }catch(err){
             //no worries, just wasn't an image or something
         }
@@ -55,7 +55,7 @@ function sampleImageCanvas(canvas){
        fuckshitup(canvas, buffer,20);
 
     }, false);
-    img.src = 'New_Trees_Background_Plus_Prince.png';
+    img.src = './data/fgimage/chara/1/Prince_of_Life.png';
 
 }
 
@@ -86,13 +86,16 @@ function colorAtPixel(width,image_data, x,y){
     y = Math.floor(y)
 	x = Math.floor(x)
 	var i = (y * width + x)* 4; //array is in sets of rgba
-	return createHex(image_data[i],image_data[i+1] ,image_data[i+2]);
+	//rgba(255, 255, 255, 0.5)"
+	return createRGB(image_data[i],image_data[i+1] ,image_data[i+2],image_data[i+3]/255);
 }
 
 
 //~~~~~~~~~~~~~~~~thanks past jr from pre SBURBSim, ModernArtSim is valid
 
-
+function createRGB(red, green, blue, alpha){
+   return "rgb(" + red + "," + green + "," + blue + ","+alpha +")";
+}
 
 function componentToHex(c) {
     var hex = c.toString(16);
