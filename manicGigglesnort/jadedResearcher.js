@@ -1,5 +1,29 @@
 
 
+//if this is slow we can have a queue of different images we want to have displayed
+//once we have an image at all we can fire up another 'thread' and have it start making them
+//and then just throw them away when the image changes? can't hurt to pursue
+
+function lookForCharImages(){
+    var elements = document.getElementsByClassName("chara_img");
+    for(var element in elements){
+        censor(element,20);
+    }
+}
+
+function censor(imageElement image, int size){
+    var buffer = document.createElement('canvas');
+    buffer.width = image.width;
+    buffer.height = image.height;
+
+    var canvas = document.createElement('canvas');
+    canvas.width = image.width;
+    canvas.height = image.height;
+    buffer.getContext("2d").drawImage(img,0,0);
+   fuckshitup(canvas, buffer,size);
+   image.src = canvas.toDataURL();
+}
+
 function makeTestCanvas(){
     var output = document.getElementById("output");
     var canvas = document.createElement('canvas');
