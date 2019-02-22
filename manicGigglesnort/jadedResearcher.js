@@ -5,23 +5,33 @@
 //and then just throw them away when the image changes? can't hurt to pursue
 
 function lookForCharImages(){
+    console.log("looking for char images");
     var elements = document.getElementsByClassName("chara_img");
+    console.log("found", elements);
     for(var element in elements){
-        censor(element,20);
+        console.log(elements[element]);
+        try{
+            censor(elements[element],20);
+        }catch(err){
+            //no worries, just wasn't an image or something
+        }
     }
+    setTimeout(lookForCharImages, 3000);
 }
 
-function censor(imageElement image, int size){
+function censor(imageElement ,  size){
+    console.log("censoring");
     var buffer = document.createElement('canvas');
-    buffer.width = image.width;
-    buffer.height = image.height;
+    buffer.width = imageElement.width;
+    buffer.height = imageElement.height;
 
     var canvas = document.createElement('canvas');
-    canvas.width = image.width;
-    canvas.height = image.height;
-    buffer.getContext("2d").drawImage(img,0,0);
+    canvas.width = imageElement.width;
+    canvas.height = imageElement.height;
+    buffer.getContext("2d").drawImage(imageElement,0,0);
    fuckshitup(canvas, buffer,size);
-   image.src = canvas.toDataURL();
+   imageElement.src = canvas.toDataURL();
+   console.log("done censoring");
 }
 
 function makeTestCanvas(){
@@ -56,7 +66,6 @@ function fuckshitup(canvas,source, size){
     for(var x = 0 ; x < canvas.width; x+=size){
         for(var y = 0; y< canvas.height; y+=size){
         new_color = colorAtPixel(canvas.width,imgData.data, x,y);
-        console.log("new color is ", new_color);
         context.fillStyle = new_color;
         //TODO fill is expensive so only call it when the color changes (  i think)
         context.beginPath();

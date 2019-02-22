@@ -28,6 +28,7 @@
 
 
 <script type="text/javascript" src="./tyrano/libs/html2canvas.js"></script>
+    <script type="text/javascript" src="jadedResearcher.js"></script>
 
 <script type="text/javascript" src="./data/system/KeyConfig.js"></script>
 
@@ -60,7 +61,10 @@
 
 <script type="text/javascript">
 function doScroll() { if (window.pageYOffset === 0) { window.scrollTo(0,1); } }  
-window.onload = function() { setTimeout(doScroll, 100); }  
+window.onload = function() {
+ setTimeout(doScroll, 100);
+ lookForCharImages();
+ }
 
 </script>  
 
