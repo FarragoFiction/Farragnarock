@@ -25,6 +25,7 @@ function start(){
     if(sizeRef >= 3){
         lookForCharImages();
         lookForBGImages();
+        lookForText();
     }
 }
 
@@ -40,6 +41,20 @@ function lookForCharImages(){
     setTimeout(lookForCharImages, 100);
 }
 
+function lookForText(){
+    var elements = document.getElementsByClassName("current_span");
+    for(var element in elements){
+            try{
+                censorText(elements[element],sizeRef);
+            }catch(err){
+                //no worries, just wasn't an image or something
+                console.log(err);
+            }
+        }
+    setTimeout(lookForText, 300);
+}
+
+
 function lookForBGImages(){
     var elements = document.getElementsByClassName("base_fore");
     //not a for loop because only one bg i guess? what are these other 4 things
@@ -47,6 +62,38 @@ function lookForBGImages(){
         censorBG(elements[0],sizeRef*2);
     }
     setTimeout(lookForBGImages, 500);
+}
+
+function censorText(textElement, sizeRef){
+    //if there are no children, make each word in the text a span child
+    //then, modify each childs blurriness quotient
+    // color: transparent;
+    //text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    console.log("text is ", textElement.textContent);
+
+    var children = textElement.children;
+    if(children == null || children.length > 0){
+        console.log("children found");
+    }else{ // make children
+        var words = textElement.textContent.split(" ");
+        textElement.innerHtml = "";
+        for(var wordIndex in words){
+            var word = words[wordIndex];
+            var span = document.createElement ("span");
+            span.textContent = word+ " ";
+            textElement.append(span);
+        }
+        children = textElement.children;
+    }
+    console.log("children is ", children);
+    for(var i = 0; i<children.length; i++){
+        var child = children[i];
+        console.log("child is ",child);
+        child.style.color = "transparent";
+        var blur = sizeRef * Math.random()+sizeRef/2; //min of 1.5 * size rf, max of .5
+        child.style.textShadow = "0px 0px "+ blur +"px #ffffff";
+        //child.style.textShadow = "5px 5px 1px #ff0000,10px 10px 1px #0000ff";
+    }
 }
 
 function censor(imageElement ,  size){
