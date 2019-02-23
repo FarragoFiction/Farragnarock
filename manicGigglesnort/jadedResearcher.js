@@ -1,6 +1,8 @@
 
 var firstFrame = true;
 var bgCanvas;
+
+var sizeRef = 20; //charimage will be this, bg will be twice this
 //if this is slow we can have a queue of different images we want to have displayed
 //once we have an image at all we can fire up another 'thread' and have it start making them
 //and then just throw them away when the image changes? can't hurt to pursue
@@ -9,21 +11,21 @@ function lookForCharImages(){
     var elements = document.getElementsByClassName("chara_img");
     for(var element in elements){
         try{
-            censor(elements[element],10);
+            censor(elements[element],sizeRef);
         }catch(err){
             //no worries, just wasn't an image or something
         }
     }
-    setTimeout(lookForCharImages, 60);
+    setTimeout(lookForCharImages, 100);
 }
 
 function lookForBGImages(){
     var elements = document.getElementsByClassName("base_fore");
     //not a for loop because only one bg i guess? what are these other 4 things
     if(elements[0]){
-        censorBG(elements[0],20);
+        censorBG(elements[0],sizeRef*2);
     }
-    setTimeout(lookForBGImages, 300);
+    setTimeout(lookForBGImages, 500);
 }
 
 function censor(imageElement ,  size){
@@ -37,6 +39,7 @@ function censor(imageElement ,  size){
     buffer.getContext("2d").drawImage(imageElement,0,0);
     if(firstFrame){
          firstFrame = false;
+         imageElement.src = "";
          pixilifyIt(canvas, buffer,size);
    }else{
        impressionism(canvas, buffer,size);
@@ -56,7 +59,7 @@ function censorBG(divElement ,  size){
         buffer.height = bgCanvas.height;
         buffer.getContext("2d").drawImage(bgCanvas,0,0);
         //might not need the buffer here at all
-        impressionism(bgCanvas,buffer,20);
+        impressionism(bgCanvas,buffer,size);
 
     }else{ //make the bg canvas
         var canvas = document.createElement('canvas');
@@ -70,7 +73,7 @@ function censorBG(divElement ,  size){
           canvas.height = divElement.offsetHeight;
            buffer.getContext("2d").drawImage(imageElement,0,0, buffer.width, buffer.height);
            console.log("made a bg canvas of width ", buffer.width, "and height ", buffer.height);
-           pixilifyIt(canvas, buffer,20);
+           pixilifyIt(canvas, buffer,size);
            console.log("setting bg image");
            //divElement.style.backgroundImage = canvas.toDataURL();
             bgCanvas = canvas;
@@ -116,7 +119,7 @@ function impressionism(canvas,source, size){
     context.drawImage(source,0,0);
     var imgData = source.getContext("2d").getImageData(0, 0, source.width, source.height);
     //100 at a time?
-    for(var i = 0; i<500; i++){
+    for(var i = 0; i<800; i++){
         var x = Math.random()*canvas.width;
         var y = Math.random()*canvas.height;
         var new_color =  colorAtPixelRandomAlpha(canvas.width,imgData.data, x,y);
