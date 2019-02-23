@@ -2,10 +2,21 @@
 var firstFrame = true;
 var bgCanvas;
 
+var timesVisited = JSON.parse(window.localStorage.getItem("guideDeathCount"));
 var sizeRef = 20; //charimage will be this, bg will be twice this
 //if this is slow we can have a queue of different images we want to have displayed
 //once we have an image at all we can fire up another 'thread' and have it start making them
 //and then just throw them away when the image changes? can't hurt to pursue
+
+function start(){
+    console.log(timesVisited);
+    if(timesVisited == null){
+        timesVisited = 0;
+    }
+    window.localStorage.setItem("guideDeathCount", JSON.stringify(timesVisited+1));
+    lookForCharImages();
+    lookForBGImages();
+}
 
 function lookForCharImages(){
     var elements = document.getElementsByClassName("chara_img");
