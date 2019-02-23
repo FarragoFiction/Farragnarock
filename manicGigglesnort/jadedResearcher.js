@@ -70,13 +70,10 @@ function censorText(textElement, sizeRef){
     // color: transparent;
     //text-shadow: 0 0 5px rgba(0,0,0,0.5);
     console.log("text is ", textElement.textContent);
-    if(textElement.textContent == null || textElement.textContent.trim == ""){
-        return; //be patient
-    }
 
     var children = textElement.children;
-    if(children == null || children.length > 0){
-        console.log("children found");
+    if(textElement.textContent == nil){
+        console.log("only need to care about children");
     }else{ // make children
         var words = textElement.textContent.split(" ");
         textElement.textContent = "";
@@ -85,8 +82,9 @@ function censorText(textElement, sizeRef){
             var span = document.createElement ("span");
             span.textContent = word+ " ";
             textElement.append(span);
+            children.push(span);//only need to add new things
         }
-        children = textElement.children;
+
     }
     console.log("children is ", children);
     for(var i = 0; i<children.length; i++){

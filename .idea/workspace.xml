@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e1ac01-f4a8-4012-aa4f-8fb2b8da51a2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manicGigglesnort/jadedResearcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/manicGigglesnort/jadedResearcher.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,8 +79,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manicGigglesnort/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+            <state relative-caret-position="124">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
@@ -89,8 +88,8 @@
       <file leaf-file-name="jadedResearcher.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manicGigglesnort/jadedResearcher.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+            <state relative-caret-position="357">
+              <caret line="84" column="61" selection-start-line="84" selection-start-column="61" selection-end-line="84" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -147,8 +146,8 @@
       <find>colorAt</find>
       <find>fuckshit</find>
       <find>sampleImageCanvas</find>
-      <find>censor</find>
       <find>fuckshi</find>
+      <find>censor</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\jadedResearcher\IdeaProjects\LOHAEStandalone\LOHAE</dir>
@@ -384,13 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manicGigglesnort/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manicGigglesnort/jrtest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -406,10 +398,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/manicGigglesnort/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manicGigglesnort/jadedResearcher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+        <state relative-caret-position="357">
+          <caret line="84" column="61" selection-start-line="84" selection-start-column="61" selection-end-line="84" selection-end-column="61" />
         </state>
       </provider>
     </entry>
