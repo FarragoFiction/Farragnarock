@@ -64,10 +64,10 @@ function impressionism(canvas,source, size){
     context.drawImage(source,0,0);
     var imgData = source.getContext("2d").getImageData(0, 0, source.width, source.height);
     //100 at a time?
-    for(var i = 0; i<100; i++){
+    for(var i = 0; i<500; i++){
         var x = Math.random()*canvas.width;
         var y = Math.random()*canvas.height;
-        new_color = colorAtPixel(canvas.width,imgData.data, x,y);
+        var new_color =  colorAtPixelRandomAlpha(canvas.width,imgData.data, x,y);
         context.fillStyle = new_color;
         context.beginPath();
         context.rect(x, y, size, size);
@@ -140,6 +140,27 @@ function colorAtPixel(width,image_data, x,y){
 	//rgba(255, 255, 255, 0.5)"
 	return createRGB(image_data[i],image_data[i+1] ,image_data[i+2],image_data[i+3]/255);
 }
+
+function colorAtPixelRandomAlpha(width,image_data, x,y){
+    y = Math.floor(y)
+	x = Math.floor(x)
+	var i = (y * width + x)* 4; //array is in sets of rgba
+	//rgba(255, 255, 255, 0.5)"
+	var alpha = image_data[i+3]/255
+	if(alpha != 0){
+	    alpha = Math.random();
+	}
+	return createRGB(image_data[i],image_data[i+1] ,image_data[i+2],alpha);
+}
+
+function antiColorAtPixel(width,image_data, x,y){
+    y = Math.floor(y)
+	x = Math.floor(x)
+	var i = (y * width + x)* 4; //array is in sets of rgba
+	//rgba(255, 255, 255, 0.5)"
+	return createRGB(255-image_data[i],255-image_data[i+1] ,255-image_data[i+2],image_data[i+3]/255);
+}
+
 
 
 //~~~~~~~~~~~~~~~~thanks past jr from pre SBURBSim, ModernArtSim is valid
