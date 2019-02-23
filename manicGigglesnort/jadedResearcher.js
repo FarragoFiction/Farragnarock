@@ -1,5 +1,6 @@
 
 var firstFrame = true;
+var bgCanvas;
 //if this is slow we can have a queue of different images we want to have displayed
 //once we have an image at all we can fire up another 'thread' and have it start making them
 //and then just throw them away when the image changes? can't hurt to pursue
@@ -18,15 +19,11 @@ function lookForCharImages(){
 
 function lookForBGImages(){
     var elements = document.getElementsByClassName("base_fore");
-    for(var element in elements){
-        try{
-            censorBG(elements[element],20);
-        }catch(err){
-            //no worries, just wasn't an image or something
-           //console.log("and error?",err);
-        }
+    //not a for loop because only one bg i guess? what are these other 4 things
+    if(elements[0]){
+        censorBG(elements[0],20);
     }
-    setTimeout(lookForBGImages, 100);
+    setTimeout(lookForBGImages, 300);
 }
 
 function censor(imageElement ,  size){
@@ -48,32 +45,43 @@ function censor(imageElement ,  size){
 }
 
 
+//TODO this won't actually pay attention if the bg changes
+//eventually care about this (maybe store what the current image src is?
 function censorBG(divElement ,  size){
 
-    var imageElement = new Image();
     var buffer = document.createElement('canvas');
 
+    if(bgCanvas){
+        buffer.width = bgCanvas.width;
+        buffer.height = bgCanvas.height;
+        buffer.getContext("2d").drawImage(bgCanvas,0,0);
+        //might not need the buffer here at all
+        impressionism(bgCanvas,buffer,20);
 
-    var canvas = document.createElement('canvas');
-    canvas.width = divElement.width;
-    canvas.height = divElement.height;
-    imageElement.addEventListener('load', function() {
-      // execute drawImage statements here
-      //console.log("it loaded?");
-      buffer.width = imageElement.width;
-      buffer.height = imageElement.height;
-      canvas.width = imageElement.width;
-      canvas.height = imageElement.height;
-       buffer.getContext("2d").drawImage(imageElement,0,0);
-       pixilifyIt(canvas, buffer,20);
-       console.log("setting bg image");
-       divElement.style.backgroundImage = canvas.toDataURL();
-      console.log("setting bg image",divElement.style.backgroundImage  );
+    }else{ //make the bg canvas
+        var canvas = document.createElement('canvas');
+        var imageElement = new Image();
+        imageElement.addEventListener('load', function() {
+          // execute drawImage statements here
+          //console.log("it loaded?");
+          buffer.width = divElement.offsetWidth;
+          buffer.height = divElement.offsetHeight;
+          canvas.width = divElement.offsetWidth;
+          canvas.height = divElement.offsetHeight;
+           buffer.getContext("2d").drawImage(imageElement,0,0, buffer.width, buffer.height);
+           console.log("made a bg canvas of width ", buffer.width, "and height ", buffer.height);
+           pixilifyIt(canvas, buffer,20);
+           console.log("setting bg image");
+           //divElement.style.backgroundImage = canvas.toDataURL();
+            bgCanvas = canvas;
+            divElement.append(bgCanvas);
+          console.log("setting bg image",divElement.style.backgroundImage  );
 
+        }, false);
+        //console.log("divElement.style.backgroundImage",divElement.style.backgroundImage.replace("url(","").replace(")",""));
+        imageElement.src = divElement.style.backgroundImage.replace("url\(","").replace(")","").replace('"','').replace('"','');
+    }
 
-    }, false);
-    //console.log("divElement.style.backgroundImage",divElement.style.backgroundImage.replace("url(","").replace(")",""));
-    imageElement.src = divElement.style.backgroundImage.replace("url\(","").replace(")","").replace('"','').replace('"','');
 
 
 }
