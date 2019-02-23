@@ -16,6 +16,19 @@ function lookForCharImages(){
     setTimeout(lookForCharImages, 60);
 }
 
+function lookForBGImages(){
+    var elements = document.getElementsByClassName("base_fore");
+    for(var element in elements){
+        try{
+            censorBG(elements[element],20);
+        }catch(err){
+            //no worries, just wasn't an image or something
+           //console.log("and error?",err);
+        }
+    }
+    setTimeout(lookForBGImages, 100);
+}
+
 function censor(imageElement ,  size){
     var buffer = document.createElement('canvas');
     buffer.width = imageElement.width;
@@ -32,6 +45,37 @@ function censor(imageElement ,  size){
        impressionism(canvas, buffer,size);
    }
    imageElement.src = canvas.toDataURL();
+}
+
+
+function censorBG(divElement ,  size){
+
+    var imageElement = new Image();
+    var buffer = document.createElement('canvas');
+
+
+    var canvas = document.createElement('canvas');
+    canvas.width = divElement.width;
+    canvas.height = divElement.height;
+    imageElement.addEventListener('load', function() {
+      // execute drawImage statements here
+      //console.log("it loaded?");
+      buffer.width = imageElement.width;
+      buffer.height = imageElement.height;
+      canvas.width = imageElement.width;
+      canvas.height = imageElement.height;
+       buffer.getContext("2d").drawImage(imageElement,0,0);
+       pixilifyIt(canvas, buffer,20);
+       console.log("setting bg image");
+       divElement.style.backgroundImage = canvas.toDataURL();
+      console.log("setting bg image",divElement.style.backgroundImage  );
+
+
+    }, false);
+    //console.log("divElement.style.backgroundImage",divElement.style.backgroundImage.replace("url(","").replace(")",""));
+    imageElement.src = divElement.style.backgroundImage.replace("url\(","").replace(")","").replace('"','').replace('"','');
+
+
 }
 
 function makeTestCanvas(){
@@ -70,7 +114,7 @@ function impressionism(canvas,source, size){
         var new_color =  colorAtPixelRandomAlpha(canvas.width,imgData.data, x,y);
         context.fillStyle = new_color;
         context.beginPath();
-        context.rect(x, y, size, size);
+        context.rect(x-size/2, y-size/2, size, size);
         context.fill();
     }
 
@@ -130,7 +174,7 @@ function gridify(canvas,source, size){
 function test(){
     console.log("hello world");
     var canvas = makeTestCanvas();
-    sampleImageCanvas(canvas);
+    //sampleImageCanvas(canvas);
 }
 
 function colorAtPixel(width,image_data, x,y){
