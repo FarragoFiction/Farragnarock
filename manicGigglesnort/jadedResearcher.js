@@ -1,26 +1,22 @@
 
-
+var firstFrame = true;
 //if this is slow we can have a queue of different images we want to have displayed
 //once we have an image at all we can fire up another 'thread' and have it start making them
 //and then just throw them away when the image changes? can't hurt to pursue
 
 function lookForCharImages(){
-    console.log("looking for char images");
     var elements = document.getElementsByClassName("chara_img");
-    console.log("found", elements);
     for(var element in elements){
-        console.log(elements[element]);
         try{
-            censor(elements[element],50);
+            censor(elements[element],10);
         }catch(err){
             //no worries, just wasn't an image or something
         }
     }
-    setTimeout(lookForCharImages, 3000);
+    setTimeout(lookForCharImages, 60);
 }
 
 function censor(imageElement ,  size){
-    console.log("censoring");
     var buffer = document.createElement('canvas');
     buffer.width = imageElement.width;
     buffer.height = imageElement.height;
@@ -29,9 +25,13 @@ function censor(imageElement ,  size){
     canvas.width = imageElement.width;
     canvas.height = imageElement.height;
     buffer.getContext("2d").drawImage(imageElement,0,0);
-   fuckshitup(canvas, buffer,size);
+    if(firstFrame){
+         firstFrame = false;
+         pixilifyIt(canvas, buffer,size);
+   }else{
+       impressionism(canvas, buffer,size);
+   }
    imageElement.src = canvas.toDataURL();
-   console.log("done censoring");
 }
 
 function makeTestCanvas(){
@@ -59,12 +59,63 @@ function sampleImageCanvas(canvas){
 
 }
 
-function fuckshitup(canvas,source, size){
+function impressionism(canvas,source, size){
+    var context = canvas.getContext("2d");
+    context.drawImage(source,0,0);
+    var imgData = source.getContext("2d").getImageData(0, 0, source.width, source.height);
+    //100 at a time?
+    for(var i = 0; i<100; i++){
+        var x = Math.random()*canvas.width;
+        var y = Math.random()*canvas.height;
+        new_color = colorAtPixel(canvas.width,imgData.data, x,y);
+        context.fillStyle = new_color;
+        context.beginPath();
+        context.rect(x, y, size, size);
+        context.fill();
+    }
+
+}
+
+function pixilifyIt(canvas,source, size){
     var context = canvas.getContext("2d");
     //context.drawImage(source,0,0);
     var imgData = source.getContext("2d").getImageData(0, 0, source.width, source.height);
     for(var x = 0 ; x < canvas.width; x+=size){
         for(var y = 0; y< canvas.height; y+=size){
+            new_color = colorAtPixel(canvas.width,imgData.data, x,y);
+            context.fillStyle = new_color;
+            context.beginPath();
+            context.rect(x, y, size, size);
+            context.fill();
+        }
+
+    }
+}
+
+function ohgoditsmelting(canvas,source, size){
+    var context = canvas.getContext("2d");
+    //context.drawImage(source,0,0);
+    var imgData = source.getContext("2d").getImageData(0, 0, source.width, source.height);
+    for(var x = 0 ; x < canvas.width; x+=1+Math.floor(Math.random() * 10)){
+        for(var y = 0; y< canvas.height; y+=1+Math.floor(Math.random() * 10) ){
+        new_color = colorAtPixel(canvas.width,imgData.data, x,y);
+        context.fillStyle = new_color;
+        //TODO fill is expensive so only call it when the color changes (  i think)
+        context.beginPath();
+        context.rect(x, y, size, size);
+        context.fill();
+        }
+
+    }
+}
+
+//turns things into weird post it grids
+function gridify(canvas,source, size){
+    var context = canvas.getContext("2d");
+    //context.drawImage(source,0,0);
+    var imgData = source.getContext("2d").getImageData(0, 0, source.width, source.height);
+    for(var x = 0 ; x < canvas.width; x+=size+Math.floor(Math.random() * 10)){
+        for(var y = 0; y< canvas.height; y+=size+Math.floor(Math.random() * 10) ){
         new_color = colorAtPixel(canvas.width,imgData.data, x,y);
         context.fillStyle = new_color;
         //TODO fill is expensive so only call it when the color changes (  i think)
