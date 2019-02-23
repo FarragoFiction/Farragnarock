@@ -8,14 +8,24 @@ var sizeRef = 20; //charimage will be this, bg will be twice this
 //once we have an image at all we can fire up another 'thread' and have it start making them
 //and then just throw them away when the image changes? can't hurt to pursue
 
+//this means we'll start at 20 pixels and then 5 visits later be at 4 pixels (the target size)
+var targetSize = 4;
+var targetVisits = 5;
+
 function start(){
     console.log(timesVisited);
     if(timesVisited == null){
-        timesVisited = 0;
+        timesVisited = 1;
     }
+    sizeRef = Math.floor((targetSize*targetVisits)/((timesVisited)%6)); //mod ten has it cycle
+    console.log("size is ", sizeRef);
+
     window.localStorage.setItem("guideDeathCount", JSON.stringify(timesVisited+1));
-    lookForCharImages();
-    lookForBGImages();
+        //window.localStorage.setItem("guideDeathCount", JSON.stringify(0));
+    if(sizeRef >= 3){
+        lookForCharImages();
+        lookForBGImages();
+    }
 }
 
 function lookForCharImages(){
