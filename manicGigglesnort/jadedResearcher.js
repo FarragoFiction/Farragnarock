@@ -46,6 +46,10 @@ function lookForText(){
     for(var element in elements){
             try{
                 if(elements[element].textContent != null){
+                    //default to really blury, children will unblurify it
+                    elements[element].style.color = "transparent";
+                    var blur = 15;
+                    elements[element].style.textShadow = "0px 0px "+ blur +"px #ffffff";
                     censorText(elements[element],sizeRef);
                  }
             }catch(err){
@@ -85,11 +89,13 @@ function censorText(textElement, sizeRef){
         textElement.textContent = "";
         for(var wordIndex in words){
             var word = words[wordIndex];
-            console.log("word is",word);
-            var span = document.createElement ("span");
-            span.textContent = word+ " ";
-            textElement.append(span);
-            children.push(span);//only need to add new things
+            if(word.trim != ""){
+                console.log("word is",word);
+                var span = document.createElement ("span");
+                span.textContent = word+ " ";
+                textElement.append(span);
+                children.push(span);//only need to add new things
+            }
         }
 
     }
