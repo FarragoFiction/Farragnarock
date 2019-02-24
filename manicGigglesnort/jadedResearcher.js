@@ -45,7 +45,9 @@ function lookForText(){
     var elements = document.getElementsByClassName("current_span");
     for(var element in elements){
             try{
-                censorText(elements[element],sizeRef);
+                if(elements[element].textContent != null){
+                    censorText(elements[element],sizeRef);
+                 }
             }catch(err){
                 //no worries, just wasn't an image or something
                 console.log(err);
@@ -71,14 +73,19 @@ function censorText(textElement, sizeRef){
     //text-shadow: 0 0 5px rgba(0,0,0,0.5);
     console.log("text is ", textElement.textContent);
 
-    var children = textElement.children;
-    if(textElement.textContent == nil){
+    var htmlChildren = textElement.children;
+    var children = [].slice.call(htmlChildren);
+
+    if(textElement.textContent == null){
         console.log("only need to care about children");
     }else{ // make children
         var words = textElement.textContent.split(" ");
+        console.log("words to spanify are ", words);
+        console.log("inner html is ", textElement.innerHtml);
         textElement.textContent = "";
         for(var wordIndex in words){
             var word = words[wordIndex];
+            console.log("word is",word);
             var span = document.createElement ("span");
             span.textContent = word+ " ";
             textElement.append(span);
